@@ -1,12 +1,12 @@
 [submodule "submodules/vscode-languageserver-node"]
 	path = submodules/vscode-languageserver-node
-	url = https://github.com:Zate/vscode-languageserver-node.git
+	url = https://github.com/Zate/vscode-languageserver-node.git
 	branch = monaco
 [submodule "submodules/go-langserver"]
 	path = submodules/go-langserver
-	url = https://github.com:Zate/go-langserver.git
+	url = https://github.com/Zate/go-langserver.git
 	branch = websocket-gorilla
 [submodule "submodules/jsonrpc2"]
 	path = submodules/jsonrpc2
-	url = https://github.com:Zate/jsonrpc2.git
+	url = https://github.com/Zate/jsonrpc2.git
 	branch = jsonrpc-websocket-gorilla
