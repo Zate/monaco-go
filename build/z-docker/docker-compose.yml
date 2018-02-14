@@ -16,7 +16,17 @@ services:
     image: "zate75/monaco-go:latest"
     container_name: monaco-go
     ports:
-      - 8081:8080
+      - 8080:8080
+    networks:
+      - monaco
+      
+  monaco-nginx:
+    build:
+      context: './monaco-nginx/'
+    image: "zate75/monaco-nginx:latest"
+    container_name: monaco-nginx
+    ports:
+      - 8081:8081
     networks:
       - monaco
     # environment:

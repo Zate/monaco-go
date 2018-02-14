@@ -19,11 +19,16 @@ RUN dep init && \
 
 
 # Docker run Golang app
-FROM scratch
+FROM alpine
 LABEL maintainer "Zate <zate75@gmail.com>"
 
+RUN apk update && apk upgrade && \
+    apk add --no-cache bash
+
 WORKDIR /
+ADD docker-entrypoint.sh .
+
 EXPOSE 4389
 COPY --from=builder /go/src/github.com/sourcegraph/go-langserver/go-langserver .
-CMD ["-gocodecompletion", "-mode", "tcp", "-trace"]
-ENTRYPOINT ["/go-langserver"]
+#CMD ["-gocodecompletion", "-mode", "tcp", "-trace"]
+ENTRYPOINT ["/docker-entrypoint.sh"]

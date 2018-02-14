@@ -19,5 +19,10 @@
     "font-roboto": "PolymerElements/font-roboto#^1.0.1",
     "iron-list": "PolymerElements/iron-list#2.0-preview",
     "paper-input": "PolymerElements/paper-input#2.0-preview"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0-rc.1",
+    "shadycss": "^v1.1.0",
+    "webcomponentsjs": "^v1.0.19"
   }
 }
