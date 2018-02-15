@@ -11,6 +11,9 @@
     "lib": [
       "dom",
       "es6"
+    ],
+    "types": [ 
+	"node"
     ]
   },
   "exclude": [
