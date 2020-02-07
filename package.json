@@ -45,7 +45,7 @@
     "bower": "^1.8.0",
     "http-server": "^0.9.0",
     "lodash": "^4.17.5",
-    "vscode-languageclient": "^3.0.1-alpha.12",
+    "vscode-languageclient": "^3.5.1",
     "vscode-languageserver-types": "^3.0.1-alpha.8"
   }
 }
