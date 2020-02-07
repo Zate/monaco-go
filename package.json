@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/chai": "^3.4.34",
-    "@types/lodash": "^4.14.50",
+    "@types/lodash": "^4.14.149",
     "@types/mocha": "^2.2.33",
     "chai": "^3.5.0",
     "event-stream": "^3.3.2",
@@ -41,7 +41,7 @@
     "vscode-nls": "^2.0.0"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.50",
+    "@types/lodash": "^4.14.149",
     "bower": "^1.8.0",
     "http-server": "^0.9.0",
     "lodash": "^4.17.5",
